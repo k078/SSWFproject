@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Core.Domain
 {
-    internal class Type
+    public enum Type
     {
+        //MOET UIT VEKTISLIJST KOMEN
     }
 }

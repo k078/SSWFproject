@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Core.Domain
 {
-    internal class Visibility
+    public enum Visibility
     {
+        PRIVATE,
+        PUBLIC
     }
 }

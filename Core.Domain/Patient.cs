@@ -17,6 +17,5 @@ namespace Core.Domain
         public int RoleNumber { get; set; }
         public DateOnly BirthDate { get; set; } //Moet minimaal 16 jaar oud en niet in de toekomst
         public Gender Gender { get; set; }
-        //bla bla
     }
 }
