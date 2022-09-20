@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FysioApp", "FysioApp.csproj", "{A01917BC-1DA7-439A-A390-F6FAEA224BC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Domain", "..\Core.Domain\Core.Domain.csproj", "{AB34F8F7-381B-4F67-A9FD-3BF2B23765DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A01917BC-1DA7-439A-A390-F6FAEA224BC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A01917BC-1DA7-439A-A390-F6FAEA224BC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A01917BC-1DA7-439A-A390-F6FAEA224BC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A01917BC-1DA7-439A-A390-F6FAEA224BC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB34F8F7-381B-4F67-A9FD-3BF2B23765DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB34F8F7-381B-4F67-A9FD-3BF2B23765DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB34F8F7-381B-4F67-A9FD-3BF2B23765DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB34F8F7-381B-4F67-A9FD-3BF2B23765DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {30201C6E-2C1E-4288-8A97-84D6B1E919AB}
+	EndGlobalSection
+EndGlobal
