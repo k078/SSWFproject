@@ -6,9 +6,7 @@ using System.Threading.Tasks;
 
 namespace Core.Domain
 {
-    public enum Visibility
+    internal class Fysiotherapist
     {
-        PRIVATE,
-        PUBLIC
     }
 }

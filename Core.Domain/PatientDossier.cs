@@ -16,9 +16,9 @@ namespace Core.Domain
         public int DiagnoseCode { get; set; }
         public string DiagnoseNotes { get; set; }
         public Role Role { get; set; }
-        //Public Employee IntakeBy{get;set;} default mag ingelogde zijn, moet aan te passen zijn
-        //Public Employee IntakeSupervisor{get;set;} default mag ingelogde zijn, moet aan te passen zijn
-        //Public Employee Therapist, keuzelijst van medewerkers
+        //public Employee IntakeBy{get;set;} default mag ingelogde zijn, moet aan te passen zijn
+        //public Employee IntakeSupervisor{get;set;} default mag ingelogde zijn, moet aan te passen zijn
+        //public Employee Therapist, keuzelijst van medewerkers
         public DateTime SignUp { get; set; }
         public DateTime LastTreatment { get; set; }
         public string Notes { get; set; }
