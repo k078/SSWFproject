@@ -12,6 +12,6 @@ namespace Core.Domain
         public string Text { get; set; }
         public DateTime TimeOfComment { get; } //Moet zelf worden vastgesteld door het systeem
         public Role CommentBy { get; } //Moet zelf worden vastgesteld door eht systeem + Role moet nog employee worden etc
-        public Visibility Visibility { get; set; }
+        public Boolean IsVisible { get; set; }
     }
 }

@@ -12,7 +12,7 @@ namespace Core.Domain
         public string LastName { get; set; }
         public string FullName {get{ return this.FirstName + " " + this.LastName; } }
         public string Email { get; set; } //Email moet uniek zijn, PK
-        public int Telephone { get; set; }
+        public string PhoneNumber { get; set; }
         public Role Role { get; set; }
         public int RoleNumber { get; set; }
         public DateOnly BirthDate { get; set; } //Moet minimaal 16 jaar oud en niet in de toekomst

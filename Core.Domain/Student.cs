@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Core.Domain
 {
-    internal class Student
+    public class Student
     {
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string Email { get; set; }
+        public int StudentNumber { get; set; }
     }
 }
